@@ -1,4 +1,4 @@
-package Introducao_ao_java;
+package Lista_de_exercicio.Introducao_ao_javaIntroducao_ao_java;
 import java.util.Scanner;
 
 public class Q5{

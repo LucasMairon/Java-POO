@@ -1,4 +1,4 @@
-package Criacao_de_classes.Q23;
+package Lista_de_exercicio.Criacao_de_classes.Q23;
 
 public class MainTime {
     public static void main(String[] args) {

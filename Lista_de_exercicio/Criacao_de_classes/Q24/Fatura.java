@@ -1,4 +1,4 @@
-package Criacao_de_classes.Q24;
+package Lista_de_exercicio.Criacao_de_classes.Q24;
 
 public class Fatura {
     

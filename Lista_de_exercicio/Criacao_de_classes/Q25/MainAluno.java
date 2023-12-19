@@ -1,4 +1,4 @@
-package Criacao_de_classes.Q25;
+package Lista_de_exercicio.Criacao_de_classes.Q25;
 
 import java.util.Scanner;
 
