@@ -1,10 +1,10 @@
 package aula_5.faculdade;
 
 public class RegistroAcademico {
-    String nome;
-    String matricula;
-    int codigoCurso;
-    double percentualDeCobranca;
+    private String nome;
+    private String matricula;
+    private int codigoCurso;
+    private double percentualDeCobranca;
 
     public void inicializaRegistroAcademico(String nome, String matricula, int codigo, double percentualDeCobranca){
         this.nome = nome;
@@ -16,4 +16,9 @@ public class RegistroAcademico {
     public double calculaMensalidade(){
         return 100 * this.codigoCurso * this.percentualDeCobranca;
     }
+    
+    public String getMatricula() {
+        return matricula;
+    }
+
 }

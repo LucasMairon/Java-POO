@@ -1,4 +1,4 @@
-package exerciciosAulas.triangulo;
+package aula_4.triangulo;
 
 public class MainTriangulo {
     public static void main(String[] args) {

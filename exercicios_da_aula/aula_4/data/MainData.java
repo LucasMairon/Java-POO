@@ -1,5 +1,4 @@
-package exerciciosAulas.data;
-
+package aula_4.data;
 import java.util.Scanner;
 
 public class MainData {

@@ -1,9 +1,9 @@
 package aula_5.evento;
 
 public class EventoAcademico {
-    String nomeDoEvento;
-    String localDoEvento;
-    int numeroDeParticipantes;
+    private String nomeDoEvento;
+    private String localDoEvento;
+    private int numeroDeParticipantes;
 
     public EventoAcademico(String nomeDoEvento,String localDoEvento,int numeroDeParticipantes){
         this.nomeDoEvento = nomeDoEvento;

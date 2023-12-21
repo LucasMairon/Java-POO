@@ -1,9 +1,9 @@
-package exerciciosAulas.data;
+package aula_4.data;
 
 public class Data{
-    int dia;
-    int mes;
-    int ano;
+    private int dia;
+    private int mes;
+    private int ano;
 
     public boolean dataEValida(){
         return(this.dia > 0 && this.dia <= 30 && this.mes > 0 && this.mes <= 12 && this.ano >=0);

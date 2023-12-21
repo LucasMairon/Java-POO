@@ -1,10 +1,10 @@
-package exerciciosAulas.triangulo;
+package aula_4.triangulo;
 
 public class Triangulo {
-    double lado1;
-    double lado2;
-    double lado3;
-    String descricao;
+    private double lado1;
+    private double lado2;
+    private double lado3;
+    private String descricao;
 
     public void inicializaTriangulo(double lado1, double lado2, double lado3, String descricao){
         this.lado1 = lado1;
