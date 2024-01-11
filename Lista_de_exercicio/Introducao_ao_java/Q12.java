@@ -28,6 +28,7 @@ public class Q12 {
         }
 
         System.out.println("Dia " + dia + " é uma " + nomeDoDia);
+        scan.close();
         
     }
 }

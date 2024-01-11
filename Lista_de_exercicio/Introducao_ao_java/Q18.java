@@ -10,6 +10,7 @@ public class Q18 {
         System.out.println("digite o expoente");
         int expoente = scan.nextInt();
         System.out.println("resultado da potencia: " + potencia(base, expoente));
+        scan.close();
     }
 
     public static int potencia(int base,int expoente){

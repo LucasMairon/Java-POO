@@ -8,6 +8,7 @@ public class Q14 {
         Scanner scan = new Scanner(System.in);
         int limiteSequenciaFibonacci = scan.nextInt();
         fibonacci(limiteSequenciaFibonacci);
+        scan.close();
     }
 
     public static void fibonacci(int limiteSequenciaFibonacci){
