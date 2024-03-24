@@ -7,7 +7,7 @@ public class LancamentoMoeda {
 
     public int sorteiaDado(int a,int b){
         Random dado = new Random();
-        return dado.nextInt(7);
+        return dado.nextInt(a,b);
     }
 
     public int somaDados(){
@@ -17,7 +17,7 @@ public class LancamentoMoeda {
     }
 
     public void ContaSomas(int n){
-        int[] numeros = new int[11];
+        int[] numeros = new int[13];
         for (int j = 0; j < n; j++) {
             for (int i = 2; i < numeros.length; i++) {
                 if(somaDados() == i){
